@@ -10,7 +10,7 @@ public class RadioTest {
     @Test
 
     public void shouldCurrentStationUp() {
-        Radio station = new Radio(10);
+        ru.netology.Radio radio = new ru.netology.Radio();
         station.setCurrentStation(5);
         station.nextStation();
         assertEquals(6, station.getCurrentStation());
