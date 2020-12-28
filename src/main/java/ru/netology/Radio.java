@@ -21,7 +21,7 @@ public class Radio {
 
 
 
-    /*public Radio(int maxStation) {
+    public Radio(int maxStation) {
         this.maxStation = maxStation;
     }
 
@@ -91,7 +91,7 @@ public class Radio {
             return;
         }
         volume -= 1;
-    }*/
+    }
 
 
 }
